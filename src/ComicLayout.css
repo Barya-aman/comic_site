@@ -1,0 +1,19 @@
+/* Add this CSS to your stylesheets or directly in the component */
+.comic-layout {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 10px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.comic-panel {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+.comic-image {
+  max-width: 100%; /* Ensure images don't exceed their container width */
+  height: auto; /* Maintain the aspect ratio of the images */
+}
